@@ -6,5 +6,9 @@ num2 = int(input("Introduzca el segundo número: "))
 def esMultiplo(a, b):
     resultado = ''
     if(a % b != 0):
-        resultado = 
-        
+        resultado = "No es múltiplo"
+    else:
+        resultado = "Es múltiplo"
+    return resultado
+
+print(esMultiplo(num1, num2))    
